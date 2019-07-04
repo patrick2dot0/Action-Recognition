@@ -57,3 +57,8 @@ in main.py and load_data.py
 # Results
 Accuracy = 85%
 
++ JumpRope
+<img src="figures/probability_transition_JumpRope.png" width="30%" height="30%" />
+
++ ParallelBars
+<img src="figures/probability_transition_ParallelBars.png" width="80%" height="80%" />
