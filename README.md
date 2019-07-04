@@ -7,13 +7,13 @@ And then use RNN (LSTM) decoder with stochastic fusion to generate the final pre
 <img src="figures/flowchart.png" width="30%" height="30%" />
 
 + flow chart  
-![image](figures/flowchart.png)
+<img src="figures/flowchart.png" width="30%" height="30%" />
 
 + CNN encoder  
-![image](figures/CNN.png)
+<img src="figures/CNN.png" width="30%" height="30%" />
 
 + multistream fusion  
-![image](figures/multistream_attention.png)
+<img src="figures/multistream_attention.png" width="30%" height="30%" />
 
 ## Task Description
 In this project, we implement a multistream fusion network  for action recognition (a.k.a. video classification) using UCF101 with PyTorch.
