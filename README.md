@@ -10,7 +10,7 @@ And then use RNN (LSTM) decoder with stochastic fusion to generate the final pre
 + CNN encoder  
 <img src="figures/CNN.png" width="80%" height="80%" />
 
-+ multistream fusion  
++ Multistream fusion  
 <img src="figures/multistream_attention.png" width="80%" height="80%" />
 
 ## Task Description
