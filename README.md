@@ -5,13 +5,13 @@ We use CNN (pretrained RESNET 152) to encode images and optical flows.
 And then use RNN (LSTM) decoder with stochastic fusion to generate the final prediction.
 
 + flow chart
-![image](figures/flowchart.png)
+![image](figures/flowchart.png  =100x100)
 
 + CNN encoder
-![image](figures/CNN.png)
+![image](figures/CNN.png  =100x100)
 
 + multistream fusion
-![image](figures/mutlistream_attention.png)
+![image](figures/multistream_attention.png  =100x100)
 ## Task Description
 In this project, we implement a multistream fusion network  for action recognition (a.k.a. video classification) using UCF101 with PyTorch.
 
