@@ -1,3 +1,9 @@
+<style>
+img{
+    width: 60%;
+    padding-left: 20%;
+}
+</style>
 # Yu-Min-Huang-Action-Recognition
 ---
 ## Model
@@ -5,13 +11,13 @@ We use CNN (pretrained RESNET 152) to encode images and optical flows.
 And then use RNN (LSTM) decoder with stochastic fusion to generate the final prediction.
 
 + flow chart  
-![image](figures/flowchart.png){height="50%" width="50%"}
+![image](figures/flowchart.png)
 
 + CNN encoder  
-![image](figures/CNN.png){height="50%" width="50%"}
+![image](figures/CNN.png)
 
 + multistream fusion  
-![image](figures/multistream_attention.png){height="50%" width="50%"}
+![image](figures/multistream_attention.png)
 
 ## Task Description
 In this project, we implement a multistream fusion network  for action recognition (a.k.a. video classification) using UCF101 with PyTorch.
