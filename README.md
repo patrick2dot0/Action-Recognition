@@ -36,4 +36,4 @@ You should set the path
 + action_name_path = "./UCF101actions.pkl"
 + save_model_path = "./model_ckpt/"  
 
-in main.py
+in main.py and load_data.py
