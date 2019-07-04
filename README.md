@@ -35,5 +35,8 @@ You should set the path
 + data_path = "./UCF101/jpegs_256/"         # UCF101 video path
 + action_name_path = "./UCF101actions.pkl"
 + save_model_path = "./model_ckpt/"  
++ spatial_data = "./UCF101/jpegs_256/"  
++ motion_x_data = "./UCF101/tvl1_flow/u/"  
++ motion_y_data = "./UCF101/tvl1_flow/v/"  
 
 in main.py and load_data.py
