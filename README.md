@@ -14,9 +14,9 @@ In this project, we implement a multistream fusion network  for action recogniti
 - tqdm
 
 # Hardware:
-CPU: Intel Core i7-4930K @3.40 GHz
-RAM: 64 GB DDR3-1600
-GPU: GeForce GTX 1080ti
+- CPU: Intel Core i7-4930K @3.40 GHz
+- RAM: 64 GB DDR3-1600
+- GPU: GeForce GTX 1080ti
 
 ## Dataset
 UCF101 has total 13,320 videos from 101 actions. Videos have various time lengths (frames) and different 2d image size; the shortest is 28 frames.
@@ -32,7 +32,7 @@ https://github.com/feichtenhofer/twostreamfusion
 ## Set parameters & path
 
 You should set the path
-data_path = "./UCF101/jpegs_256/"         # UCF101 video path
-action_name_path = "./UCF101actions.pkl"
-save_model_path = "./model_ckpt/"
++ data_path = "./UCF101/jpegs_256/"         # UCF101 video path
++ action_name_path = "./UCF101actions.pkl"
++ save_model_path = "./model_ckpt/"
 in main.py
