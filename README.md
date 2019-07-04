@@ -35,4 +35,5 @@ You should set the path
 + data_path = "./UCF101/jpegs_256/"         # UCF101 video path
 + action_name_path = "./UCF101actions.pkl"
 + save_model_path = "./model_ckpt/"  
+
 in main.py
