@@ -1,14 +1,10 @@
-<style>
-img{
-    width: 60%;
-    padding-left: 20%;
-}
-</style>
 # Yu-Min-Huang-Action-Recognition
 ---
 ## Model
 We use CNN (pretrained RESNET 152) to encode images and optical flows.  
 And then use RNN (LSTM) decoder with stochastic fusion to generate the final prediction.
+
+<img src="figures/flowchart.png" width="50%" height="50%" />
 
 + flow chart  
 ![image](figures/flowchart.png)
@@ -59,3 +55,5 @@ You should set the path
 + motion_y_data = "./UCF101/tvl1_flow/v/"  
 
 in main.py and load_data.py
+
+# Results
