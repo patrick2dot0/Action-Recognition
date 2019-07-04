@@ -1,5 +1,10 @@
 # Yu-Min-Huang-Action-Recognition
 ---
+## Model
+We use CNN (pretrained RESNET 152) to encode images and optical flows.  
+And then use RNN (LSTM) with stochastic fusion to generate the final prediction.
+
+
 ## Task Description
 In this project, we implement a multistream fusion network  for action recognition (a.k.a. video classification) using UCF101 with PyTorch.
 
