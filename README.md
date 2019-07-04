@@ -4,7 +4,7 @@
 We use CNN (pretrained RESNET 152) to encode images and optical flows.  
 And then use RNN (LSTM) decoder with stochastic fusion to generate the final prediction.
 
-<img src="figures/flowchart.png" width="50%" height="50%" />
+<img src="figures/flowchart.png" width="30%" height="30%" />
 
 + flow chart  
 ![image](figures/flowchart.png)
