@@ -1,8 +1,8 @@
 # Yu-Min-Huang-Action-Recognition
 
-Accepted by APSIPA 2019
-<Stochastic Fusion for Multi-stream Neural Network in Video Classification>
-Author : Yu-Min Huang, Huan-Hsin Tseng, Jen-Tzung Chien
+- Accepted by APSIPA 2019
+- <Stochastic Fusion for Multi-stream Neural Network in Video Classification>
+- Author : Yu-Min Huang, Huan-Hsin Tseng, Jen-Tzung Chien
 ---
 ## Model
 We use CNN (pretrained RESNET 152) to encode images and optical flows.  
