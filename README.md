@@ -1,5 +1,5 @@
 # Yu-Min-Huang-Action-Recognition
-
+---
 - Accepted by APSIPA 2019
 - <Stochastic Fusion for Multi-stream Neural Network in Video Classification>
 - Author : Yu-Min Huang, Huan-Hsin Tseng, Jen-Tzung Chien
